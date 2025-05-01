@@ -1,15 +1,15 @@
 # Research Paper Podcast Generator - Project Structure
 
-I've created a comprehensive, professional project structure for your Research Paper Podcast Generator. This structure follows Python best practices and organizes your code in a maintainable, scalable way.
+Comprehensive project structure for Research Paper Podcast Generator. This structure aims to organizes the code in a maintainable, scalable way.
 
 ## Key Files and Directories
 
 ### Project Configuration
 - `setup.py` - Package installation configuration
-- `pyproject.toml` - Modern Python project configuration
+- `pyproject.toml` - Python project configuration
 - `requirements.txt` - Dependencies list
 - `LICENSE.md` - MIT License
-- `README.md` - Comprehensive documentation
+- `README.md` - Documentation
 - `.gitignore` - Git configuration
 
 ### Package Structure
@@ -47,17 +47,14 @@ Once installed, you can use the package as follows:
 
 ```bash
 # Basic usage
-research-podcast path/to/paper.pdf
+research-podcast convert path/to/paper.pdf
 
 # Advanced options
-research-podcast path/to/paper.pdf --model mistral:latest --temperature 0.7
+research-podcast convert path/to/paper.pdf --model mistral:latest --temperature 0.7
 ```
 
 ## Next Steps
 
 1. **Implement Tests**: Add unit and integration tests
 2. **CI/CD Pipeline**: Set up GitHub Actions for testing and releases
-3. **Documentation**: Add API documentation with Sphinx
-4. **Web Interface**: Consider adding a simple web interface as an alternative to CLI
-
-The codebase is now structured in a way that makes it easy to maintain, extend, and potentially publish to PyPI in the future.
+3. **Web Interface**: Adding a simple web interface as an alternative to CLI

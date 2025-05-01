@@ -47,13 +47,13 @@ pip install git+https://github.com/nari-labs/dia.git
 ### Basic Usage
 
 ```bash
-python -m research_podcast path/to/paper.pdf
+python -m research-podcast convert path/to/paper.pdf
 ```
 
 ### Advanced Options
 
 ```bash
-python -m research_podcast path/to/paper.pdf \
+python -m research-podcast convert path/to/paper.pdf \
   --model mistral:latest \
   --temperature 0.7 \
   --output-dir outputs \

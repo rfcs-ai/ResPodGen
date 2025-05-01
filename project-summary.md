@@ -27,9 +27,6 @@ Comprehensive project structure for Research Paper Podcast Generator. This struc
   - `utils/` - Utility functions
     - `logging.py` - Logging configuration
 
-### Additional Directories
-- `examples/` - Example files and configurations
-- `tests/` - Test directory (structure created but tests not implemented)
 
 ## Key Changes and Improvements
 

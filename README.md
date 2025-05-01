@@ -92,7 +92,7 @@ Create a JSON file mapping speakers to audio samples:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are very welcome! Please feel free to submit a Pull Request.
 
 ## License
 
